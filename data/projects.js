@@ -279,7 +279,7 @@ window.PROJECTS = [
     "kind": "웹 도구",
     "stage": "1단계 개발 완료 (2026-09-28)",
     "planVersion": "v0.1",
-    "hasDb": false,
+    "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-19/",
     "repoUrl": "https://github.com/aebonlee/data09-19",
     "planUrl": "https://github.com/aebonlee/data09-19/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
