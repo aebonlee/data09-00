@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>현장 데이터 디지털화 전문가과정 1차수 · 수강생 프로젝트</title>
+  <meta name="description" content="현장 데이터 수집·디지털화 전문가과정 1차수 수강생들이 직접 기획한 현장 업무 도구를 한곳에 모았습니다. 기획서·리포지토리·바로 쓰는 도구 링크." />
+  <link rel="canonical" href="https://aebonlee.github.io/data09-00/" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="현장 데이터 디지털화 전문가과정" />
+  <meta property="og:url" content="https://aebonlee.github.io/data09-00/" />
+  <meta property="og:title" content="현장 데이터 디지털화 전문가과정 1차수 · 수강생 프로젝트" />
+  <meta property="og:description" content="수강생이 직접 기획한 현장 업무 도구 모음 — 기획서·리포지토리·바로 쓰는 도구" />
+  <meta property="og:image" content="https://aebonlee.github.io/data09-00/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f3a5f'/%3E%3Ctext x='16' y='22' font-size='15' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3E09%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="inner">
+      <p class="eyebrow">NIPA 2026 산업전문인력 AI역량강화 · 건설기계</p>
+      <h1>현장 데이터 수집·디지털화 전문가과정 <span class="nowrap">1차수</span></h1>
+      <p class="lead">수강생이 자기 직무의 현안을 직접 기획하고, 그 기획서를 바탕으로 만든 현장 업무 도구입니다.<br />
+        모든 도구에 「예시 데이터 불러오기」가 있어 가입 없이 바로 체험할 수 있습니다.</p>
+      <dl class="stats" id="stats"></dl>
+    </div>
+  </header>
+
+  <main class="inner">
+    <section class="toolbar" aria-label="찾기">
+      <label class="search">
+        <span class="sr-only">검색</span>
+        <input id="q" type="search" placeholder="이름·과제명·설명으로 찾기" autocomplete="off" />
+      </label>
+      <div class="chips" role="group" aria-label="유형">
+        <button type="button" class="chip is-on" data-kind="">전체</button>
+        <button type="button" class="chip" data-kind="웹 도구">웹 도구</button>
+        <button type="button" class="chip" data-kind="로컬 Python 도구">로컬 Python 도구</button>
+      </div>
+    </section>
+
+    <p class="count" id="count" aria-live="polite"></p>
+    <ol class="grid" id="grid"></ol>
+
+    <section class="guide">
+      <h2>진행 방식</h2>
+      <ol class="steps">
+        <li><strong>기획</strong><span>수강생이 패들릿에 직무·현안·보유 데이터·기대 산출물을 올립니다.</span></li>
+        <li><strong>기획서</strong><span>제출 내용을 10장 구성의 기획서(Markdown·Word)로 정리합니다. 확인이 필요한 점은 10장에 모읍니다.</span></li>
+        <li><strong>1단계 개발</strong><span>지금 있는 자료로 만들 수 있는 부분부터 도구로 만들고, 예시 데이터로 전 과정을 검증합니다.</span></li>
+        <li><strong>보완</strong><span>수강생이 댓글·자료로 답하면 기획서 버전을 올리고 도구에 반영합니다.</span></li>
+      </ol>
+      <p class="note">각 저장소는 수강생 본인의 과제입니다. Fork 하거나 「Code → Download ZIP」으로 받아 가셔도 됩니다.
+        강의 종료 후 일정 기간이 지나면 비공개로 전환되니, 계속 쓰실 분은 그 전에 받아 두세요.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="inner footer-bottom-line" id="footer"></div>
+  </footer>
+
+  <script src="data/projects.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
