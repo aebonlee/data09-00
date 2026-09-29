@@ -287,11 +287,11 @@ window.PROJECTS = [
     "title": "하네스 도면 자재 판별·BOM 자동 산출 에이전트",
     "oneLine": "신규 하네스 도면(PDF·이미지)의 전 자재(커넥터·클립 등)를 통합 자재 마스터와 대조해 **도면 위에 기존·매핑 필요·신규를 표시**하고, 같은 내용을 **좌표와 함께 엑셀로 따로 뽑는** 도구 (1차 목표, 기획서 v0.2). 터미널·실 같은 종속 자재 산출과 BOM 엑셀은 다음 단계 메뉴로 함께 들어 있습니다.",
     "kind": "웹 도구",
-    "stage": "2026-09-29 수강생 수정 기획으로 1차 목표 재설정(기획서 v0.2) · 도면 자재 판별 개발 완료",
+    "stage": "2026-09-29 수정 기획(v0.2) · 같은 날 저녁 답변 반영(v0.3): 노랑=고객사 품번 확정, 고객사별 학습 규칙·도면 부품표·커넥터 부자재",
     "lastDate": "2026-09-29",
-    "planNote": "수강생 수정 기획으로 1차 목표 재설정**. v0.1 의 BOM 산출 범위는 「다음 단계」(8장)로 옮김",
+    "planNote": "수강생 답변 반영**(12장): 노랑=고객사 품번 표기 확정, 초록=제조사 품번 표기 확인, 고객사별 학습 규칙·도면 부품표 추출·커넥터 부자재 추가. v0.2 의 1차 목표는 그대로",
     "extras": [],
-    "planVersion": "v0.2",
+    "planVersion": "v0.3",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-16/",
     "repoUrl": "https://github.com/aebonlee/data09-16",
@@ -423,6 +423,24 @@ window.PROJECTS = [
     "repoUrl": "https://github.com/aebonlee/data09-23",
     "planUrl": "https://github.com/aebonlee/data09-23/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-23/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+  },
+  {
+    "no": "24",
+    "repo": "data09-24",
+    "name": "김세이",
+    "title": "JOURNAL",
+    "oneLine": "사진을 고르면 찍은 날짜와 위치(EXIF)로 여행을 날짜별로 묶고, 동선 지도·방문 국가·경비·일기 도우미·요약 카드까지 한곳에 담는 여행 기록일지 — 사진은 이 브라우저 밖으로 나가지 않습니다",
+    "kind": "웹 도구",
+    "stage": "1단계 개발 완료 (2026-09-29)",
+    "lastDate": "2026-09-29",
+    "planNote": "패들릿 기능 지도(Feature Map) 요약, 1단계 = 사진 날짜·위치 자동 정리·동선 지도·방문 국가·경비·일기 도우미·요약 카드와 PDF, 2단계 = Vision AI 자동 분류·음성·경로 최적화·취향 분석과 추천·공유와 계정",
+    "extras": [],
+    "planVersion": "v0.1",
+    "hasDb": true,
+    "toolUrl": "https://aebonlee.github.io/data09-24/",
+    "repoUrl": "https://github.com/aebonlee/data09-24",
+    "planUrl": "https://github.com/aebonlee/data09-24/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
+    "planDocx": "https://github.com/aebonlee/data09-24/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
 window.PROJECTS_UPDATED = "2026-09-29";
