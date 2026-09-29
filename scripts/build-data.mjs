@@ -6,7 +6,8 @@ import { fileURLToPath } from 'node:url'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
-const dirs = readdirSync(ROOT).filter((d) => /^data09-(\d\d)$/.test(d) && d !== 'data09-00').sort()
+// README 가 아직 없는 폴더(다른 작업이 만드는 중)는 건너뛴다
+const dirs = readdirSync(ROOT).filter((d) => /^data09-(\d\d)$/.test(d) && d !== 'data09-00' && existsSync(join(ROOT, d, 'README.md'))).sort()
 
 const cell = (md, key) => {
   const m = md.match(new RegExp(`^\\|\\s*${key}\\s*\\|\\s*(.+?)\\s*\\|\\s*$`, 'm'))
