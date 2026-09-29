@@ -441,6 +441,24 @@ window.PROJECTS = [
     "repoUrl": "https://github.com/aebonlee/data09-24",
     "planUrl": "https://github.com/aebonlee/data09-24/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-24/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+  },
+  {
+    "no": "25",
+    "repo": "data09-25",
+    "name": "정윤욱",
+    "title": "주조 생산실적 분석",
+    "oneLine": "주간 주조 생산실적 엑셀을 여러 주 쌓아 품목별 분석·주간 생산결산·이상 탐지(규칙 + AI 프롬프트)·주간 보고서 초안을 만드는 브라우저 도구",
+    "kind": "웹 도구",
+    "stage": "1단계 개발 완료 (2026-09-29)",
+    "lastDate": "2026-09-29",
+    "planNote": "메일 접수 기획안 + 첨부 주간표 구조 기반, 1단계 = 주간 엑셀 누적·① 품목 분석·② 주간 결산·③ 규칙 이상 탐지 + AI 프롬프트·④ 보고서 초안, 2단계 = 팀 공유 DB·작업일지 연계·AI 자동 분석 고도화",
+    "extras": [],
+    "planVersion": "v0.1",
+    "hasDb": true,
+    "toolUrl": "https://aebonlee.github.io/data09-25/",
+    "repoUrl": "https://github.com/aebonlee/data09-25",
+    "planUrl": "https://github.com/aebonlee/data09-25/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
+    "planDocx": "https://github.com/aebonlee/data09-25/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
 window.PROJECTS_UPDATED = "2026-09-29";
