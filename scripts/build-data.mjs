@@ -25,7 +25,24 @@ const projects = dirs.map((repo) => {
   const ver = (plan.match(/문서 상태\s*\|\s*[^|]*?(v\d+\.\d+)/) || [])[1] || ''
   const web = existsSync(join(dir, 'index.html'))
   const hasDb = existsSync(join(dir, 'supabase/schema.sql'))
-  const stage = stripUrl(cell(readme, '진행 단계'))
+  const stage = stripUrl(cell(readme, '진행 단계').replace(/<br\s*\/?>/gi, ' · ')).replace(/\s*·\s*$/, '')
+  // 가장 최근 반영일 = 진행 단계에 적힌 날짜 중 가장 늦은 것
+  const lastDate = (stage.match(/20\d\d-\d\d-\d\d/g) || []).sort().pop() || ''
+  // 이번 판 기획서에 무엇을 반영했는지 = 「문서 상태」 칸의 — 뒤 설명
+  const status = cell(plan, '문서 상태')
+  const planNote = (status.split(' — ')[1] || '')
+    .replace(/\s*\(v\d+\.\d+ = [^)]*\)\s*$/, '')
+    .replace(/[.。]?\s*11장 참조\s*$/, '')
+    .replace(/\s*\(11장\)|\(11장\)/g, '')
+    .replace(/^수강생 제출 자료(?: 기반)? \+ /, '')
+    .replace(/20\d\d-\d\d-\d\d\s*/g, '') // 날짜는 lastDate 로 따로 보여 준다
+    .replace(/\(\s*/g, '(')
+    .trim()
+  // 한 리포 안의 추가 과제(과제 B 등): 하위 도구 폴더·02 기획서가 있으면 링크를 단다
+  const extras = []
+  if (existsSync(join(dir, 'report/index.html'))) extras.push({ label: '과제 B 도구', url: `https://aebonlee.github.io/${repo}/report/`, tool: true })
+  const plan2 = readdirSync(join(dir, 'docs')).find((f) => /^02_.*기획서\.md$/.test(f))
+  if (plan2) extras.push({ label: '과제 B 기획서', url: `https://github.com/aebonlee/${repo}/blob/main/docs/${encodeURIComponent(plan2)}` })
   return {
     no: repo.slice(-2),
     repo,
@@ -34,6 +51,9 @@ const projects = dirs.map((repo) => {
     oneLine,
     kind: web ? '웹 도구' : '로컬 Python 도구',
     stage,
+    lastDate,
+    planNote,
+    extras,
     planVersion: ver,
     hasDb,
     toolUrl: web ? `https://aebonlee.github.io/${repo}/` : '',
@@ -44,6 +64,6 @@ const projects = dirs.map((repo) => {
 })
 
 for (const p of projects) for (const k of ['name', 'title', 'oneLine']) if (!p[k]) throw new Error(`${p.repo}: ${k} 비어 있음`)
-const out = `// 자동 생성 — 손으로 고치지 말 것. node scripts/build-data.mjs\nwindow.PROJECTS = ${JSON.stringify(projects, null, 2)};\nwindow.PROJECTS_UPDATED = ${JSON.stringify(new Date().toISOString().slice(0, 10))};\n`
+const out = `// 자동 생성 — 손으로 고치지 말 것. node scripts/build-data.mjs\nwindow.PROJECTS = ${JSON.stringify(projects, null, 2)};\nwindow.PROJECTS_UPDATED = ${JSON.stringify(new Date().toISOString().slice(0, 10))};\nwindow.PROJECTS_LATEST = ${JSON.stringify(projects.map((p) => p.lastDate).sort().pop() || '')};\n`
 writeFileSync(join(HERE, '..', 'data', 'projects.js'), out)
 console.log(`과제 ${projects.length}개 → data/projects.js`)

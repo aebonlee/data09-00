@@ -13,6 +13,8 @@
   --ok-bg: #e5f4ec;
   --py: #6a3fa0;
   --py-bg: #f1eafb;
+  --new: #8a4b00;
+  --new-bg: #fff4e0;
   --container-wide: 1280px;
   --container-pad: 20px;
   --radius: 12px;
@@ -77,6 +79,10 @@ button, input { font: inherit; }
 .badge { font-size: 0.78rem; border-radius: 999px; padding: 2px 10px; font-weight: 600; }
 .badge.web { background: var(--ok-bg); color: var(--ok); }
 .badge.py { background: var(--py-bg); color: var(--py); }
+.badge.new { background: var(--new-bg); color: var(--new); }
+.card p.recent { margin: 0; padding: 8px 10px; background: var(--new-bg); border-radius: 8px; color: var(--ink); font-size: 0.88rem; }
+.card p.recent strong { color: var(--new); }
+.btn.sub { border-color: var(--brand-2); color: var(--brand-2); }
 .card h3 { margin: 0; font-size: 1.12rem; line-height: 1.4; }
 .card p.desc { margin: 0; color: var(--ink-2); font-size: 0.95rem; }
 .meta { display: flex; flex-wrap: wrap; gap: 6px 14px; color: var(--ink-3); font-size: 0.84rem; margin-top: auto; padding-top: 4px; }
@@ -104,3 +110,4 @@ button, input { font: inherit; }
 .footer { border-top: 1px solid var(--line); background: var(--surface); padding: 22px 0; color: var(--ink-3); font-size: 0.86rem; }
 .footer-bottom-line { display: flex; flex-wrap: wrap; gap: 2px 8px; align-items: baseline; }
 .footer-bottom-line span { white-space: nowrap; }
+@media (max-width: 400px) { .footer-bottom-line span:first-child { white-space: normal; } }
