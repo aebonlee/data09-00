@@ -387,6 +387,24 @@ window.PROJECTS = [
     "repoUrl": "https://github.com/aebonlee/data09-21",
     "planUrl": "https://github.com/aebonlee/data09-21/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-21/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+  },
+  {
+    "no": "22",
+    "repo": "data09-22",
+    "name": "김무연",
+    "title": "용접누락 방지 검출",
+    "oneLine": "협력사 「내부용접 검사성적서」(엑셀)를 올리면 머리칸·결과표·위치별 사진을 읽어 규칙으로 점검하고, 사람이 위치별로 용접누락을 판정해 용접사별로 누적하는 브라우저 도구",
+    "kind": "웹 도구",
+    "stage": "1단계 개발 완료 (2026-09-29)",
+    "lastDate": "2026-09-29",
+    "planNote": "제출 기획서(첨부 03) + 메일로 받은 실제 성적서 3건의 구조 기반",
+    "extras": [],
+    "planVersion": "v0.1",
+    "hasDb": true,
+    "toolUrl": "https://aebonlee.github.io/data09-22/",
+    "repoUrl": "https://github.com/aebonlee/data09-22",
+    "planUrl": "https://github.com/aebonlee/data09-22/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
+    "planDocx": "https://github.com/aebonlee/data09-22/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
 window.PROJECTS_UPDATED = "2026-09-29";
