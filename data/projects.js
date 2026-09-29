@@ -405,6 +405,24 @@ window.PROJECTS = [
     "repoUrl": "https://github.com/aebonlee/data09-22",
     "planUrl": "https://github.com/aebonlee/data09-22/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-22/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+  },
+  {
+    "no": "23",
+    "repo": "data09-23",
+    "name": "이영우",
+    "title": "행복회로 버킷리스트",
+    "oneLine": "복권에 당첨됐다고 가정하고 버킷리스트를 비용과 함께 적으면, 남은 예산과 「몇 달을 살 수 있나」가 바로 바뀌는 가상 시뮬레이터 — 로또·스피또는 일시금 예산, 연금복권은 월별 현금흐름",
+    "kind": "웹 도구",
+    "stage": "1단계 개발 완료 (2026-09-29)",
+    "lastDate": "2026-09-29",
+    "planNote": "수강생 기획서 v1.1(1~10장) 요약, 1단계 = 기획서 10장 MVP 를 간결하게 줄인 계산 엔진·화면, 2단계 = 로또 평균 자동 수집·추천·계정 동기화",
+    "extras": [],
+    "planVersion": "v0.1",
+    "hasDb": true,
+    "toolUrl": "https://aebonlee.github.io/data09-23/",
+    "repoUrl": "https://github.com/aebonlee/data09-23",
+    "planUrl": "https://github.com/aebonlee/data09-23/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
+    "planDocx": "https://github.com/aebonlee/data09-23/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
 window.PROJECTS_UPDATED = "2026-09-29";
