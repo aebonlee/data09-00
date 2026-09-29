@@ -369,6 +369,24 @@ window.PROJECTS = [
     "repoUrl": "https://github.com/aebonlee/data09-20",
     "planUrl": "https://github.com/aebonlee/data09-20/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-20/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+  },
+  {
+    "no": "21",
+    "repo": "data09-21",
+    "name": "김영현",
+    "title": "가족 기프티콘 관리",
+    "oneLine": "가족이 함께 기프티콘을 사진과 함께 등록하고, 유효기간 D-day·사용 여부·예약자를 한눈에 보며 「사용함」을 직접 체크하는 보관함",
+    "kind": "웹 도구",
+    "stage": "1단계 개발 완료 (2026-09-29)",
+    "lastDate": "2026-09-29",
+    "planNote": "패들릿 제출 원문 기반, 1단계 범위는 강사 방향(간결하게 · 사용 여부는 사용자가 직접 · 실제 DB · 한눈에 보이게)에 맞춤",
+    "extras": [],
+    "planVersion": "v0.1",
+    "hasDb": true,
+    "toolUrl": "https://aebonlee.github.io/data09-21/",
+    "repoUrl": "https://github.com/aebonlee/data09-21",
+    "planUrl": "https://github.com/aebonlee/data09-21/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
+    "planDocx": "https://github.com/aebonlee/data09-21/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
 window.PROJECTS_UPDATED = "2026-09-29";
