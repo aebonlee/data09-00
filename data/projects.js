@@ -433,9 +433,9 @@ window.PROJECTS = [
     "kind": "웹 도구",
     "stage": "1단계 개발 완료 (2026-09-29) + 수강생 답변 반영 (2026-09-30: HEIC·도시 이름·외부 지도 API·USD/JPY/EUR·정산 탭·앨범·대시보드)",
     "lastDate": "2026-09-30",
-    "planNote": "수강생 답변 반영: 아이폰 HEIC 지원, 도시 이름 자동(오프라인 GeoNames) + 외부 지도 API(선택), 원화 기준 USD·JPY·EUR 환산, 경비 정산 탭, 사진 중심 앨범·지도 따라가기·경비 대시보드. Vision AI 분류는 범위에서 뺌. 2단계 = 음성·경로 최적화·취향 분석과 추천·공유와 계정",
+    "planNote": "수강생 추가 요청으로 여행 일정 추가(12장): 항공·숙소·관광·맛집·투어 일정표(장소·시각·예약 번호·확인), 동선 지도에 계획 겹쳐 보기, 여행기 인쇄에 일정표. v0.2 답변 반영: 아이폰 HEIC 지원, 도시 이름 자동(오프라인 GeoNames) + 외부 지도 API(선택), 원화 기준 USD·JPY·EUR 환산, 경비 정산 탭, 사진 중심 앨범·지도 따라가기·경비 대시보드. Vision AI 분류는 범위에서 뺌. 2단계 = 음성·경로 최적화·취향 분석과 추천·공유와 계정",
     "extras": [],
-    "planVersion": "v0.2",
+    "planVersion": "v0.3",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-24/",
     "repoUrl": "https://github.com/aebonlee/data09-24",
@@ -477,6 +477,24 @@ window.PROJECTS = [
     "repoUrl": "https://github.com/aebonlee/data09-26",
     "planUrl": "https://github.com/aebonlee/data09-26/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-26/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+  },
+  {
+    "no": "27",
+    "repo": "data09-27",
+    "name": "이동철",
+    "title": "업무보고 자동생성 Agent",
+    "oneLine": "주간 · 월간을 고르면 내 PC 의 클래식 Outlook 에서 그 기간에 주고받은 메일(Online 사서함 + 내 PC 의 .pst)과 첨부(워드 · PPT · 엑셀 · PDF · 그림 · 일러스트)를 모아, 근거 메일이 붙은 주간 · 월간 업무보고 초안을 만드는 도구",
+    "kind": "웹 도구",
+    "stage": "1단계 개발 완료 (2026-09-30)",
+    "lastDate": "2026-09-30",
+    "planNote": "",
+    "extras": [],
+    "planVersion": "",
+    "hasDb": false,
+    "toolUrl": "https://aebonlee.github.io/data09-27/",
+    "repoUrl": "https://github.com/aebonlee/data09-27",
+    "planUrl": "https://github.com/aebonlee/data09-27/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
+    "planDocx": "https://github.com/aebonlee/data09-27/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
 window.PROJECTS_UPDATED = "2026-09-30";
