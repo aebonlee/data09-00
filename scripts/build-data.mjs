@@ -8,6 +8,10 @@ const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
 // README 가 아직 없는 폴더(다른 작업이 만드는 중)는 건너뛴다
 const dirs = readdirSync(ROOT).filter((d) => /^data09-(\d\d)$/.test(d) && d !== 'data09-00' && existsSync(join(ROOT, d, 'README.md'))).sort()
+// 다른 리포로 합친 과제는 목록에서 뺀다 — README 에 「| 상태 | **통합됨 → data09-NN** … |」 가 있으면(합친 사실은 받는 쪽 README 진행 단계에 적는다)
+const mergedInto = (d) => (readFileSync(join(ROOT, d, 'README.md'), 'utf8').match(/^\|\s*상태\s*\|\s*\**통합됨\s*→\s*(data09-\d\d)/m) || [])[1] || ''
+const merged = dirs.filter(mergedInto)
+for (const d of merged) { console.log(`${d} → ${mergedInto(d)} 에 통합됨 — 목록에서 뺌`); dirs.splice(dirs.indexOf(d), 1) }
 
 const cell = (md, key) => {
   const m = md.match(new RegExp(`^\\|\\s*${key}\\s*\\|\\s*(.+?)\\s*\\|\\s*$`, 'm'))
