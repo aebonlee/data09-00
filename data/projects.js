@@ -49,7 +49,7 @@ window.PROJECTS = [
     "extras": [],
     "planVersion": "v0.7",
     "hasDb": true,
-    "toolUrl": "https://aebonlee.github.io/data09-03/",
+    "toolUrl": "https://rgt-forklift.jobability.co.kr/",
     "repoUrl": "https://github.com/aebonlee/data09-03",
     "planUrl": "https://github.com/aebonlee/data09-03/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-03/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
@@ -121,7 +121,7 @@ window.PROJECTS = [
     "extras": [],
     "planVersion": "v0.10",
     "hasDb": true,
-    "toolUrl": "https://aebonlee.github.io/data09-07/",
+    "toolUrl": "https://chunilecn.jobability.co.kr/",
     "repoUrl": "https://github.com/aebonlee/data09-07",
     "planUrl": "https://github.com/aebonlee/data09-07/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-07/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
@@ -401,7 +401,7 @@ window.PROJECTS = [
     "extras": [],
     "planVersion": "v0.3",
     "hasDb": true,
-    "toolUrl": "https://aebonlee.github.io/data09-22/",
+    "toolUrl": "https://welding.jobability.co.kr/",
     "repoUrl": "https://github.com/aebonlee/data09-22",
     "planUrl": "https://github.com/aebonlee/data09-22/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-22/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
