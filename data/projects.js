@@ -495,6 +495,24 @@ window.PROJECTS = [
     "repoUrl": "https://github.com/aebonlee/data09-27",
     "planUrl": "https://github.com/aebonlee/data09-27/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-27/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+  },
+  {
+    "no": "28",
+    "repo": "data09-28",
+    "name": "김세이",
+    "title": "외자 Invoice · 항차등록 확인 · 원산지증명서 (폐쇄망 버전)",
+    "oneLine": "외자 부품 Invoice PDF 를 ERP 업로드 엑셀(PO 번호 포함)로 바꾸고, Invoice 번호로 B/L 을 찾아 항차등록이 끝났는지 확인하고, 원산지증명서 요청 메일을 관리하는 사내 폐쇄망용 도구 — 인터넷 · AI 없이 이 PC 안에서만 동작",
+    "kind": "웹 도구",
+    "stage": "1단계 개발 완료 (2026-09-30)",
+    "lastDate": "2026-09-30",
+    "planNote": "패들릿 「프로젝트 개선」 요청(Invoice PDF → 엑셀 · PO 번호, Invoice 번호 → B/L → 항차등록 확인, 원산지증명서 요청 메일 관리)을 사내 폐쇄망용으로 결합: data09-12 엔진을 옮기고 hd-project16 의 방식 · 테스트 기준을 따름, AI 없음(스캔본은 이 PC 안 OCR), Python 폴더 일괄 변환",
+    "extras": [],
+    "planVersion": "v0.1",
+    "hasDb": true,
+    "toolUrl": "https://aebonlee.github.io/data09-28/",
+    "repoUrl": "https://github.com/aebonlee/data09-28",
+    "planUrl": "https://github.com/aebonlee/data09-28/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
+    "planDocx": "https://github.com/aebonlee/data09-28/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
 window.PROJECTS_UPDATED = "2026-09-30";
