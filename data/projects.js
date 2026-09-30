@@ -311,7 +311,7 @@ window.PROJECTS = [
     "extras": [],
     "planVersion": "v0.6",
     "hasDb": true,
-    "toolUrl": "https://aebonlee.github.io/data09-17/",
+    "toolUrl": "https://jhan1001.jobability.co.kr/",
     "repoUrl": "https://github.com/aebonlee/data09-17",
     "planUrl": "https://github.com/aebonlee/data09-17/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-17/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
