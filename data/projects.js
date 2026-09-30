@@ -329,7 +329,7 @@ window.PROJECTS = [
     "extras": [],
     "planVersion": "v1.3",
     "hasDb": true,
-    "toolUrl": "https://aebonlee.github.io/data09-18/",
+    "toolUrl": "https://chunil1001.jobability.co.kr/",
     "repoUrl": "https://github.com/aebonlee/data09-18",
     "planUrl": "https://github.com/aebonlee/data09-18/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-18/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
