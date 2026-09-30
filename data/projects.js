@@ -215,11 +215,11 @@ window.PROJECTS = [
     "title": "외자재 운영관리 Agent",
     "oneLine": "해외 공급업체 연락처 조회, PO 발주 메일 일괄 작성, 선적·A/N 관리 대장, 업체별 체크리스트와 Follow-up 메일을 한곳에서 처리하는 외자재 발주 도우미",
     "kind": "웹 도구",
-    "stage": "1단계 개발 완료 (2026-09-28), 메일 추가 자료(실물 PO·OC·회신 메일·Cummins 주간 현황·항차 매뉴얼)와 추가 요청(Cummins Promise Date → EXW DATE)과 그 답변(오늘 기준 미선적·건별 입력·지난주 파일 비교), 저녁 새 요청(도착 통지 A/N 탭), 밤 실물 A/N 양식(TMS NO·B/L 별 항차등록) 반영 (2026-09-29)",
-    "lastDate": "2026-09-29",
-    "planNote": "밤 실물 A/N 양식(해상 엑셀·B/L PDF·항공 메일)과 요청(B/L 별 항차등록·TMS NO·해상/항공 구분 불필요) 반영(11.8). 이전: v0.5",
+    "stage": "1단계 개발 완료 (2026-09-28), 메일 추가 자료(실물 PO·OC·회신 메일·Cummins 주간 현황·항차 매뉴얼)와 추가 요청(Cummins Promise Date → EXW DATE)과 그 답변(오늘 기준 미선적·건별 입력·지난주 파일 비교), 저녁 새 요청(도착 통지 A/N 탭), 밤 실물 A/N 양식(TMS NO·B/L 별 항차등록) 반영 (2026-09-29), 답변 반영(TMS NO = 신청번호·Incoterms 비교 끔·HBL 기준, 2026-09-30)",
+    "lastDate": "2026-09-30",
+    "planNote": "패들릿 답변 반영(11.9: TMS NO = HIPRO 신청번호 확정, Incoterms·컨테이너 형식 비교 불필요 확정, SRM = HBL 기준 확정, A/N 은 도착 며칠 전 수신 확정). 이전: v0.6",
     "extras": [],
-    "planVersion": "v0.6",
+    "planVersion": "v0.7",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-12/",
     "repoUrl": "https://github.com/aebonlee/data09-12",
@@ -461,5 +461,5 @@ window.PROJECTS = [
     "planDocx": "https://github.com/aebonlee/data09-25/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
-window.PROJECTS_UPDATED = "2026-09-29";
-window.PROJECTS_LATEST = "2026-09-29";
+window.PROJECTS_UPDATED = "2026-09-30";
+window.PROJECTS_LATEST = "2026-09-30";
