@@ -169,9 +169,9 @@ window.PROJECTS = [
     "title": "Design Benchmarking Agent · 업무보고 Agent",
     "oneLine": "이 리포에는 과제가 두 개 있습니다.",
     "kind": "웹 도구",
-    "stage": "과제 A: 1단계 개발 완료 (2026-09-28), 추가 요청 반영 (2026-09-29 — Mecalac·Insight·Report·전문가 피드백·운영 루프), 오후 답변 반영(디자인 평가 포함 리포트·주간), 오후 늦게 평가 기준 자료 반영(8기준·비중·1~5·가중 점수·AI/디자이너 분리, 오래된 자료 20년), 2026-09-30 보고서 목적별 비중 프로필(버전 관리)·Radar Chart, 이미지 View 에 Rear-Quarter 추가  ·  과제 B: 1단계 개발 완료 (2026-09-29), 오후 늦게 클래식 Outlook 폴더 내보내기 스크립트·주간 양식 표  ·  공용: 사내 LLM(OpenAI 호환) AI 연결 설정",
+    "stage": "과제 A: 1단계 개발 완료 (2026-09-28), 추가 요청 반영 (2026-09-29 — Mecalac·Insight·Report·전문가 피드백·운영 루프), 오후 답변 반영(디자인 평가 포함 리포트·주간), 오후 늦게 평가 기준 자료 반영(8기준·비중·1~5·가중 점수·AI/디자이너 분리, 오래된 자료 20년), 2026-09-30 보고서 목적별 비중 프로필(버전 관리)·Radar Chart, 이미지 View 에 Rear-Quarter 추가, 오후 「비중 조정」 패널(07·08)  ·  과제 B: 1단계 개발 완료 (2026-09-29), 오후 늦게 클래식 Outlook 폴더 내보내기 스크립트·주간 양식 표  ·  공용: 사내 LLM(OpenAI 호환) AI 연결 설정",
     "lastDate": "2026-09-30",
-    "planNote": "오전 늦게 이미지 View 에 Rear-Quarter 추가 · 비중 질문 다시 쓰기 · 모델별 Radar 불필요 확인 (11장 v0.7). 이전: v0.6 보고서 목적별 비중 프로필(버전 관리)·Radar Chart·내 PC 에서 쓰기 안내·수강생 질문 4개 답변 (11장 v0.6). 이전: 수강생 제출 자료 + 추가 요청(Mecalac·Insight·Report·전문가 피드백·운영 루프) 반영, 추가 과제 B(자동 업무보고 Agent), 오후 답변(평가 포함 리포트·주간·Mecalac 전 장비) 확정, 오후 늦게 평가 기준 자료(8기준·비중·1~5)·오래된 자료 20년·피드백 1~5 확정, 사내 LLM(OpenAI 호환) 연결 설정",
+    "planNote": "오후 팀 기준 비중 없음 확정 → 예시 프로필을 기본값으로, 「비중 조정」 패널(막대·숫자 자동 100%·리포트 목적 출발점·내 비중으로 저장) 추가 (11장 v0.8). 이전: v0.7",
     "extras": [
       {
         "label": "과제 B 도구",
@@ -183,7 +183,7 @@ window.PROJECTS = [
         "url": "https://github.com/aebonlee/data09-10/blob/main/docs/02_%EA%B3%BC%EC%A0%9CB_%EC%97%85%EB%AC%B4%EB%B3%B4%EA%B3%A0Agent_%EA%B8%B0%ED%9A%8D%EC%84%9C.md"
       }
     ],
-    "planVersion": "v0.7",
+    "planVersion": "v0.8",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-10/",
     "repoUrl": "https://github.com/aebonlee/data09-10",
