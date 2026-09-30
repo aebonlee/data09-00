@@ -459,6 +459,24 @@ window.PROJECTS = [
     "repoUrl": "https://github.com/aebonlee/data09-25",
     "planUrl": "https://github.com/aebonlee/data09-25/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-25/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+  },
+  {
+    "no": "26",
+    "repo": "data09-26",
+    "name": "이기욱",
+    "title": "인증법규 Agent",
+    "oneLine": "건설기계 인증법규 문서를 조항 단위로 나눠 근거를 찾고, 근거가 있을 때만 답하며 AI 답의 문장마다 인용을 대조하는 근거 한정(Zero-Hallucination) RAG 브라우저 도구 — 사내 PC 에서 설치 없이, 사내 LLM(OpenAI 호환 주소)을 연결해 쓸 수 있음",
+    "kind": "웹 도구",
+    "stage": "1단계 개발 완료 (2026-09-30)",
+    "lastDate": "2026-09-30",
+    "planNote": "패들릿 설계 본문 + Claude·ChatGPT 기획서 2종을 한 문서로 종합, 1단계 = 브라우저에서 도는 근거 한정 RAG(조항 단위 나누기 · BM25 · 근거 판정 · 인용 강제 프롬프트 · 답 사후 검증 · 되묻기 · 답이 있는 후속 질문 · 기록 · 골든셋), 2단계 = M365 폴더 연동 · 팀 공유 · 사내 LLM 자동 검증 · Python/팔란티어 운영",
+    "extras": [],
+    "planVersion": "v0.1",
+    "hasDb": true,
+    "toolUrl": "https://aebonlee.github.io/data09-26/",
+    "repoUrl": "https://github.com/aebonlee/data09-26",
+    "planUrl": "https://github.com/aebonlee/data09-26/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
+    "planDocx": "https://github.com/aebonlee/data09-26/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
 window.PROJECTS_UPDATED = "2026-09-30";
