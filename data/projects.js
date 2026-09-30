@@ -513,6 +513,24 @@ window.PROJECTS = [
     "repoUrl": "https://github.com/aebonlee/data09-28",
     "planUrl": "https://github.com/aebonlee/data09-28/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
     "planDocx": "https://github.com/aebonlee/data09-28/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+  },
+  {
+    "no": "29",
+    "repo": "data09-29",
+    "name": "(확인 필요)",
+    "title": "오더 분석기 (Order Analysis v51) — 지게차 소음 · 진동 첫 화면",
+    "oneLine": "Testlab Neo 에서 내보낸 주파수축 CSV 를 올리면 RPM 별 오더 진폭 · Overall · 차수별 기여도 · Spectrum Map 을 브라우저 안에서 계산하는 제출자 분석기 v51 에, 지게차 그림과 소음 · 진동 컨투어(가상 캠벨 선도)를 섞은 첫 화면을 더한 도구",
+    "kind": "웹 도구",
+    "stage": "1단계 완료 (2026-09-30) — 제출자 분석기 v51 그대로 + 첫 화면(지게차 그림 · 가상 캠벨 선도 컨투어 · RPM 커서)",
+    "lastDate": "2026-09-30",
+    "planNote": "패들릿 「프로젝트 접수 & 개선」 요청(지게차 그림 + 진동소음 컨투어를 메인 화면에) 반영: 제출자 분석기 v51 은 한 줄도 고치지 않고, 첫 화면에 지게차 그림과 가상 캠벨 선도(RPM × 주파수 컨투어 · 오더 선)를 더함",
+    "extras": [],
+    "planVersion": "v0.1",
+    "hasDb": false,
+    "toolUrl": "https://aebonlee.github.io/data09-29/",
+    "repoUrl": "https://github.com/aebonlee/data09-29",
+    "planUrl": "https://github.com/aebonlee/data09-29/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
+    "planDocx": "https://github.com/aebonlee/data09-29/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
 window.PROJECTS_UPDATED = "2026-09-30";
