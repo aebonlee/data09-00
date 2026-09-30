@@ -39,9 +39,12 @@ const projects = dirs.map((repo) => {
     .replace(/20\d\d-\d\d-\d\d\s*/g, '') // 날짜는 lastDate 로 따로 보여 준다
     .replace(/\(\s*/g, '(')
     .trim()
+  // 사용자 도메인을 배당한 리포는 루트의 CNAME 파일(Pages 가 서빙하는 도메인)을 쓴다. 없으면 github.io 하위 경로
+  const cname = existsSync(join(dir, 'CNAME')) ? readFileSync(join(dir, 'CNAME'), 'utf8').trim().split(/\s+/)[0] : ''
+  const siteBase = cname ? `https://${cname}/` : `https://aebonlee.github.io/${repo}/`
   // 한 리포 안의 추가 과제(과제 B 등): 하위 도구 폴더·02 기획서가 있으면 링크를 단다
   const extras = []
-  if (existsSync(join(dir, 'report/index.html'))) extras.push({ label: '과제 B 도구', url: `https://aebonlee.github.io/${repo}/report/`, tool: true })
+  if (existsSync(join(dir, 'report/index.html'))) extras.push({ label: '과제 B 도구', url: `${siteBase}report/`, tool: true })
   const plan2 = readdirSync(join(dir, 'docs')).find((f) => /^02_.*기획서\.md$/.test(f))
   if (plan2) extras.push({ label: '과제 B 기획서', url: `https://github.com/aebonlee/${repo}/blob/main/docs/${encodeURIComponent(plan2)}` })
   return {
@@ -57,7 +60,7 @@ const projects = dirs.map((repo) => {
     extras,
     planVersion: ver,
     hasDb,
-    toolUrl: web ? `https://aebonlee.github.io/${repo}/` : '',
+    toolUrl: web ? siteBase : '',
     repoUrl: `https://github.com/aebonlee/${repo}`,
     planUrl: `https://github.com/aebonlee/${repo}/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md`,
     planDocx: `https://github.com/aebonlee/${repo}/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx`,
