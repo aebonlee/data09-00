@@ -215,9 +215,9 @@ window.PROJECTS = [
     "title": "외자재 운영관리 Agent",
     "oneLine": "해외 공급업체 연락처 조회, PO 발주 메일 일괄 작성, 선적·A/N 관리 대장, 공급사 Invoice PDF → ERP 엑셀, 원산지증명서 요청, 업체별 체크리스트와 Follow-up 메일을 한곳에서 처리하는 외자재 발주 도우미",
     "kind": "웹 도구",
-    "stage": "1단계 개발 완료 (2026-09-28), 메일 추가 자료(실물 PO·OC·회신 메일·Cummins 주간 현황·항차 매뉴얼)와 추가 요청(Cummins Promise Date → EXW DATE)과 그 답변(오늘 기준 미선적·건별 입력·지난주 파일 비교), 저녁 새 요청(도착 통지 A/N 탭), 밤 실물 A/N 양식(TMS NO·B/L 별 항차등록) 반영 (2026-09-29), 답변 반영(TMS NO = 신청번호·Incoterms 비교 끔·HBL 기준, 2026-09-30), 「프로젝트 개선」 새 요청(Invoice PDF → 엑셀·PO 번호, Cummins 구분 HCE 만, Invoice → B/L → 항차등록, 원산지증명서 요청 탭, 2026-09-30), 원산지증명서 B/L DATE 7일 이상 소급문구(2026-09-30)",
-    "lastDate": "2026-09-30",
-    "planNote": "패들릿 댓글 「원산지증명서 B/L DATE 7일 이상 소급문구」 반영(11.11: B/L DATE 칸·자동 채우기, 경과일·기준일, 「소급문구 필요 (Issued Retrospectively)」 표시·거르기·엑셀, 업체 메일에 소급 발급 요청 문장 자동, 기준 일수·문구 설정). 이전: v0.8",
+    "stage": "1단계 개발 완료 (2026-09-28), 메일 추가 자료(실물 PO·OC·회신 메일·Cummins 주간 현황·항차 매뉴얼)와 추가 요청(Cummins Promise Date → EXW DATE)과 그 답변(오늘 기준 미선적·건별 입력·지난주 파일 비교), 저녁 새 요청(도착 통지 A/N 탭), 밤 실물 A/N 양식(TMS NO·B/L 별 항차등록) 반영 (2026-09-29), 답변 반영(TMS NO = 신청번호·Incoterms 비교 끔·HBL 기준, 2026-09-30), 「프로젝트 개선」 새 요청(Invoice PDF → 엑셀·PO 번호, Cummins 구분 HCE 만, Invoice → B/L → 항차등록, 원산지증명서 요청 탭, 2026-09-30), 원산지증명서 B/L DATE 7일 이상 소급문구(2026-09-30), 엑셀 첨부 안 됨 대응(문서보안(DRM) 엑셀 안내·「모든 파일에서 고르기」·CSV, 2026-10-01)",
+    "lastDate": "2026-10-01",
+    "planNote": "패들릿 댓글 「D드라이브 엑셀 첨부가 안 됨」 대응(11.12: 문서보안(DRM)·암호 엑셀 알림과 CSV 저장 안내, 「모든 파일에서 고르기」, CSV CP949). 이전: 패들릿 댓글 「원산지증명서 B/L DATE 7일 이상 소급문구」 반영(11.11: B/L DATE 칸·자동 채우기, 경과일·기준일, 「소급문구 필요 (Issued Retrospectively)」 표시·거르기·엑셀, 업체 메일에 소급 발급 요청 문장 자동, 기준 일수·문구 설정). 이전: v0.8",
     "extras": [],
     "planVersion": "v0.9",
     "hasDb": true,
@@ -515,5 +515,5 @@ window.PROJECTS = [
     "planDocx": "https://github.com/aebonlee/data09-28/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
-window.PROJECTS_UPDATED = "2026-09-30";
-window.PROJECTS_LATEST = "2026-09-30";
+window.PROJECTS_UPDATED = "2026-10-01";
+window.PROJECTS_LATEST = "2026-10-01";
