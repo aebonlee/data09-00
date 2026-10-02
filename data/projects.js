@@ -95,13 +95,13 @@ window.PROJECTS = [
     "repo": "data09-06",
     "name": "조윤제",
     "title": "소음진동 오더 분석 도구 (Order Analysis v51)",
-    "oneLine": "Testlab Neo 에서 내보낸 주파수축 CSV 를 올리면 RPM 별 오더 진폭 · Overall · 차수별 기여도 · Spectrum Map 을 브라우저 안에서 계산하는 제출자 분석기 v51 에 전동 지게차 그림과 가상 캠벨 선도 컨투어 첫 화면을 더한 도구",
+    "oneLine": "Testlab Neo 에서 내보낸 주파수축 CSV 를 올리면 RPM 별 오더 진폭 · Overall · 차수별 기여도 · Spectrum Map 을 브라우저 안에서 계산하는 제출자 분석기 v51 에 지게차(전동식 · 엔진식) 그림과 가상 캠벨 선도 컨투어 첫 화면, 영역별 「분석 실행」 버튼을 더한 도구",
     "kind": "웹 도구",
-    "stage": "1단계 개발 완료 (2026-09-28) · 2차 — 제출자 분석기 v34·실제 Testlab Neo 파일 반영 · 3차(2026-09-29) — v34 의 XLSX 저장·축 범위·높이 조절·끌어 놓기·즉시 다시 계산 · 4차(2026-09-30) — 분석기 v40 기준 RPM 별 Overall·오더 기여도(그래프·표시 옵션·XLSX 시트) · 5차(2026-09-30) — data09-29(제출자 분석기 v51 + 전동 지게차 첫 화면) 통합, 두 번째 CSV 채널 오류 수정",
-    "lastDate": "2026-09-30",
-    "planNote": "data09-29(제출자 분석기 v51 + 지게차 첫 화면)를 제출자 답변대로 이 리포에 통합: 첫 화면 = v51 + 전동 지게차 그림 · 가상 캠벨 선도, 이전 도구는 classic/ 로 보존, 두 번째 CSV 채널 오류 수정",
+    "stage": "1단계 개발 완료 (2026-09-28) · 2차 — 제출자 분석기 v34·실제 Testlab Neo 파일 반영 · 3차(2026-09-29) — v34 의 XLSX 저장·축 범위·높이 조절·끌어 놓기·즉시 다시 계산 · 4차(2026-09-30) — 분석기 v40 기준 RPM 별 Overall·오더 기여도(그래프·표시 옵션·XLSX 시트) · 5차(2026-09-30) — data09-29(제출자 분석기 v51 + 전동 지게차 첫 화면) 통합, 두 번째 CSV 채널 오류 수정 · 6차(2026-10-02) — 첫 화면 그림 높이를 글 묶음에 맞춤 · 엔진식 지게차 추가 · 업로드 칸 절반 · Contribution Analysis 상시 표시 · 세 영역 접기 · 「분석 실행」 버튼",
+    "lastDate": "2026-10-02",
+    "planNote": "요청 7가지 반영(12장: 첫 화면 그림 높이 · 엔진식 지게차 추가 · 업로드 칸 절반 · Contribution Analysis 상시 표시 · 세 영역 접기 · 단위 설정 기본 펼침 · 「분석 실행」 버튼)",
     "extras": [],
-    "planVersion": "v0.6",
+    "planVersion": "v0.7",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-06/",
     "repoUrl": "https://github.com/aebonlee/data09-06",
@@ -515,5 +515,5 @@ window.PROJECTS = [
     "planDocx": "https://github.com/aebonlee/data09-28/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
   }
 ];
-window.PROJECTS_UPDATED = "2026-10-01";
-window.PROJECTS_LATEST = "2026-10-01";
+window.PROJECTS_UPDATED = "2026-10-02";
+window.PROJECTS_LATEST = "2026-10-02";
