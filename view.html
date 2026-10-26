@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>현장 데이터 디지털화 전문가과정 1차수 · 수강생 프로젝트</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f3a5f'/%3E%3Ctext x='16' y='22' font-size='15' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3E09%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="hero view-hero">
+    <div class="inner">
+      <p class="eyebrow"><a href="./">← 프로젝트 목록</a></p>
+      <h1 id="vtitle">문서 보기</h1>
+      <nav class="view-tabs" id="vtabs" aria-label="문서"></nav>
+    </div>
+  </header>
+  <main class="inner">
+    <article class="doc" id="doc"><p class="empty">불러오는 중…</p></article>
+    <p class="note">저장소는 비공개입니다. 이 화면은 열람만 할 수 있습니다. 파일이나 사용에 관한 문의는 aebon@dreamitbiz.com 으로 보내 주세요.</p>
+  </main>
+  <footer class="footer"><div class="inner footer-bottom-line" id="footer"></div></footer>
+  <script src="js/vendor/marked.min.js"></script>
+  <script src="data/projects.js"></script>
+  <script>
+  (function () {
+    var qs = new URLSearchParams(location.search)
+    var r = qs.get('r') || '', d = qs.get('d') || 'plan'
+    var doc = document.getElementById('doc')
+    var NAMES = { plan: '기획서', plan2: '과제 B 기획서', readme: '소개 · 실행 방법' }
+    if (!/^data09-\d\d$/.test(r) || !NAMES[d]) { doc.innerHTML = '<p class="empty">문서를 찾을 수 없습니다.</p>'; return }
+    var p = (window.PROJECTS || []).filter(function (x) { return x.repo === r })[0]
+    document.getElementById('vtitle').textContent = (p ? p.no + ' · ' + p.name + ' — ' + p.title : r)
+    document.title = NAMES[d] + ' · ' + (p ? p.title : r)
+    var tabs = document.getElementById('vtabs')
+    var have = ['readme'].concat(p && p.planUrl ? ['plan'] : []).concat(p && (p.extras || []).some(function (x) { return /d=plan2/.test(x.url) }) ? ['plan2'] : [])
+    have.forEach(function (k) {
+      var a = document.createElement('a'); a.href = 'view.html?r=' + r + '&d=' + k; a.textContent = NAMES[k]
+      if (k === d) a.setAttribute('aria-current', 'page')
+      tabs.appendChild(a)
+    })
+    if (p && p.toolUrl) { var t = document.createElement('a'); t.href = p.toolUrl; t.target = '_blank'; t.rel = 'noopener'; t.textContent = '도구 바로 쓰기 ↗'; tabs.appendChild(t) }
+    // 제목에 id 를 붙여 #실행-방법 같은 앵커로 바로 가게 한다
+    var slug = function (s) { return s.trim().toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, '').replace(/\s+/g, '-') }
+    fetch('view/' + r + '/' + d + '.md', { cache: 'no-cache' })
+      .then(function (res) { if (!res.ok) throw new Error(res.status); return res.text() })
+      .then(function (md) {
+        doc.innerHTML = marked.parse(md)
+        doc.querySelectorAll('h1,h2,h3,h4').forEach(function (h) { if (!h.id) h.id = slug(h.textContent) })
+        // 비공개 리포 안을 가리키는 상대 링크·GitHub 링크는 열 수 없으니 글자만 남긴다
+        doc.querySelectorAll('a[href]').forEach(function (a) {
+          var h = a.getAttribute('href')
+          if (/^#/.test(h)) return
+          if (/^https?:\/\/github\.com\/aebonlee\//.test(h) || !/^(https?:|mailto:)/.test(h)) { var s = document.createElement('span'); s.innerHTML = a.innerHTML; a.replaceWith(s) }
+          else { a.target = '_blank'; a.rel = 'noopener' }
+        })
+        doc.querySelectorAll('table').forEach(function (t) { var w = document.createElement('div'); w.className = 'table-wrap'; t.parentNode.insertBefore(w, t); w.appendChild(t) })
+        if (location.hash) { var el = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (el) el.scrollIntoView() }
+      })
+      .catch(function () { doc.innerHTML = '<p class="empty">문서를 불러오지 못했습니다.</p>' })
+  })()
+  </script>
+</body>
+</html>

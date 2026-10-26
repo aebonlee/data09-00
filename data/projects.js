@@ -14,9 +14,8 @@ window.PROJECTS = [
     "planVersion": "v0.8",
     "hasDb": true,
     "toolUrl": "https://hdx-ps.jobability.co.kr/",
-    "repoUrl": "https://github.com/aebonlee/data09-01",
-    "planUrl": "https://github.com/aebonlee/data09-01/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-01/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-01&d=readme",
+    "planUrl": "view.html?r=data09-01&d=plan"
   },
   {
     "no": "02",
@@ -32,9 +31,8 @@ window.PROJECTS = [
     "planVersion": "v0.3",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-02/",
-    "repoUrl": "https://github.com/aebonlee/data09-02",
-    "planUrl": "https://github.com/aebonlee/data09-02/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-02/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-02&d=readme",
+    "planUrl": "view.html?r=data09-02&d=plan"
   },
   {
     "no": "03",
@@ -50,9 +48,8 @@ window.PROJECTS = [
     "planVersion": "v0.8",
     "hasDb": true,
     "toolUrl": "https://rgt-forklift.jobability.co.kr/",
-    "repoUrl": "https://github.com/aebonlee/data09-03",
-    "planUrl": "https://github.com/aebonlee/data09-03/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-03/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-03&d=readme",
+    "planUrl": "view.html?r=data09-03&d=plan"
   },
   {
     "no": "04",
@@ -68,9 +65,8 @@ window.PROJECTS = [
     "planVersion": "v0.7",
     "hasDb": true,
     "toolUrl": "https://rpm-resp.jobability.co.kr/",
-    "repoUrl": "https://github.com/aebonlee/data09-04",
-    "planUrl": "https://github.com/aebonlee/data09-04/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-04/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-04&d=readme",
+    "planUrl": "view.html?r=data09-04&d=plan"
   },
   {
     "no": "05",
@@ -86,9 +82,8 @@ window.PROJECTS = [
     "planVersion": "v0.9",
     "hasDb": true,
     "toolUrl": "https://chunil-inventory.jobability.co.kr/",
-    "repoUrl": "https://github.com/aebonlee/data09-05",
-    "planUrl": "https://github.com/aebonlee/data09-05/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-05/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-05&d=readme",
+    "planUrl": "view.html?r=data09-05&d=plan"
   },
   {
     "no": "06",
@@ -104,9 +99,8 @@ window.PROJECTS = [
     "planVersion": "v0.7",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-06/",
-    "repoUrl": "https://github.com/aebonlee/data09-06",
-    "planUrl": "https://github.com/aebonlee/data09-06/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-06/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-06&d=readme",
+    "planUrl": "view.html?r=data09-06&d=plan"
   },
   {
     "no": "07",
@@ -122,9 +116,8 @@ window.PROJECTS = [
     "planVersion": "v0.10",
     "hasDb": true,
     "toolUrl": "https://chunilecn.jobability.co.kr/",
-    "repoUrl": "https://github.com/aebonlee/data09-07",
-    "planUrl": "https://github.com/aebonlee/data09-07/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-07/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-07&d=readme",
+    "planUrl": "view.html?r=data09-07&d=plan"
   },
   {
     "no": "08",
@@ -140,9 +133,8 @@ window.PROJECTS = [
     "planVersion": "v0.7",
     "hasDb": true,
     "toolUrl": "https://measurement.jobability.co.kr/",
-    "repoUrl": "https://github.com/aebonlee/data09-08",
-    "planUrl": "https://github.com/aebonlee/data09-08/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-08/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-08&d=readme",
+    "planUrl": "view.html?r=data09-08&d=plan"
   },
   {
     "no": "09",
@@ -158,9 +150,8 @@ window.PROJECTS = [
     "planVersion": "v0.5",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-09/",
-    "repoUrl": "https://github.com/aebonlee/data09-09",
-    "planUrl": "https://github.com/aebonlee/data09-09/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-09/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-09&d=readme",
+    "planUrl": "view.html?r=data09-09&d=plan"
   },
   {
     "no": "10",
@@ -180,15 +171,14 @@ window.PROJECTS = [
       },
       {
         "label": "과제 B 기획서",
-        "url": "https://github.com/aebonlee/data09-10/blob/main/docs/02_%EA%B3%BC%EC%A0%9CB_%EC%97%85%EB%AC%B4%EB%B3%B4%EA%B3%A0Agent_%EA%B8%B0%ED%9A%8D%EC%84%9C.md"
+        "url": "view.html?r=data09-10&d=plan2"
       }
     ],
     "planVersion": "v0.9",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-10/",
-    "repoUrl": "https://github.com/aebonlee/data09-10",
-    "planUrl": "https://github.com/aebonlee/data09-10/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-10/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-10&d=readme",
+    "planUrl": "view.html?r=data09-10&d=plan"
   },
   {
     "no": "11",
@@ -204,9 +194,8 @@ window.PROJECTS = [
     "planVersion": "v0.2",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-11/",
-    "repoUrl": "https://github.com/aebonlee/data09-11",
-    "planUrl": "https://github.com/aebonlee/data09-11/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-11/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-11&d=readme",
+    "planUrl": "view.html?r=data09-11&d=plan"
   },
   {
     "no": "12",
@@ -222,9 +211,8 @@ window.PROJECTS = [
     "planVersion": "v0.9",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-12/",
-    "repoUrl": "https://github.com/aebonlee/data09-12",
-    "planUrl": "https://github.com/aebonlee/data09-12/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-12/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-12&d=readme",
+    "planUrl": "view.html?r=data09-12&d=plan"
   },
   {
     "no": "13",
@@ -240,9 +228,8 @@ window.PROJECTS = [
     "planVersion": "v0.1",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-13/",
-    "repoUrl": "https://github.com/aebonlee/data09-13",
-    "planUrl": "https://github.com/aebonlee/data09-13/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-13/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-13&d=readme",
+    "planUrl": "view.html?r=data09-13&d=plan"
   },
   {
     "no": "14",
@@ -258,9 +245,8 @@ window.PROJECTS = [
     "planVersion": "v0.1",
     "hasDb": false,
     "toolUrl": "",
-    "repoUrl": "https://github.com/aebonlee/data09-14",
-    "planUrl": "https://github.com/aebonlee/data09-14/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-14/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-14&d=readme",
+    "planUrl": "view.html?r=data09-14&d=plan"
   },
   {
     "no": "15",
@@ -276,9 +262,8 @@ window.PROJECTS = [
     "planVersion": "v0.3",
     "hasDb": false,
     "toolUrl": "",
-    "repoUrl": "https://github.com/aebonlee/data09-15",
-    "planUrl": "https://github.com/aebonlee/data09-15/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-15/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-15&d=readme",
+    "planUrl": "view.html?r=data09-15&d=plan"
   },
   {
     "no": "16",
@@ -294,9 +279,8 @@ window.PROJECTS = [
     "planVersion": "v0.4",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-16/",
-    "repoUrl": "https://github.com/aebonlee/data09-16",
-    "planUrl": "https://github.com/aebonlee/data09-16/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-16/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-16&d=readme",
+    "planUrl": "view.html?r=data09-16&d=plan"
   },
   {
     "no": "17",
@@ -312,9 +296,8 @@ window.PROJECTS = [
     "planVersion": "v0.6",
     "hasDb": true,
     "toolUrl": "https://jhan1001.jobability.co.kr/",
-    "repoUrl": "https://github.com/aebonlee/data09-17",
-    "planUrl": "https://github.com/aebonlee/data09-17/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-17/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-17&d=readme",
+    "planUrl": "view.html?r=data09-17&d=plan"
   },
   {
     "no": "18",
@@ -330,9 +313,8 @@ window.PROJECTS = [
     "planVersion": "v1.3",
     "hasDb": true,
     "toolUrl": "https://chunil1001.jobability.co.kr/",
-    "repoUrl": "https://github.com/aebonlee/data09-18",
-    "planUrl": "https://github.com/aebonlee/data09-18/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-18/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-18&d=readme",
+    "planUrl": "view.html?r=data09-18&d=plan"
   },
   {
     "no": "19",
@@ -348,9 +330,8 @@ window.PROJECTS = [
     "planVersion": "v0.2",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-19/",
-    "repoUrl": "https://github.com/aebonlee/data09-19",
-    "planUrl": "https://github.com/aebonlee/data09-19/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-19/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-19&d=readme",
+    "planUrl": "view.html?r=data09-19&d=plan"
   },
   {
     "no": "20",
@@ -366,9 +347,8 @@ window.PROJECTS = [
     "planVersion": "v0.1",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-20/",
-    "repoUrl": "https://github.com/aebonlee/data09-20",
-    "planUrl": "https://github.com/aebonlee/data09-20/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-20/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-20&d=readme",
+    "planUrl": "view.html?r=data09-20&d=plan"
   },
   {
     "no": "21",
@@ -384,9 +364,8 @@ window.PROJECTS = [
     "planVersion": "v0.5",
     "hasDb": true,
     "toolUrl": "https://gifticon.jobability.co.kr/",
-    "repoUrl": "https://github.com/aebonlee/data09-21",
-    "planUrl": "https://github.com/aebonlee/data09-21/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-21/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-21&d=readme",
+    "planUrl": "view.html?r=data09-21&d=plan"
   },
   {
     "no": "22",
@@ -402,9 +381,8 @@ window.PROJECTS = [
     "planVersion": "v0.3",
     "hasDb": true,
     "toolUrl": "https://welding.jobability.co.kr/",
-    "repoUrl": "https://github.com/aebonlee/data09-22",
-    "planUrl": "https://github.com/aebonlee/data09-22/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-22/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-22&d=readme",
+    "planUrl": "view.html?r=data09-22&d=plan"
   },
   {
     "no": "23",
@@ -420,9 +398,8 @@ window.PROJECTS = [
     "planVersion": "v0.2",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-23/",
-    "repoUrl": "https://github.com/aebonlee/data09-23",
-    "planUrl": "https://github.com/aebonlee/data09-23/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-23/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-23&d=readme",
+    "planUrl": "view.html?r=data09-23&d=plan"
   },
   {
     "no": "24",
@@ -438,9 +415,8 @@ window.PROJECTS = [
     "planVersion": "v0.3",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-24/",
-    "repoUrl": "https://github.com/aebonlee/data09-24",
-    "planUrl": "https://github.com/aebonlee/data09-24/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-24/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-24&d=readme",
+    "planUrl": "view.html?r=data09-24&d=plan"
   },
   {
     "no": "25",
@@ -456,9 +432,8 @@ window.PROJECTS = [
     "planVersion": "v0.2",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-25/",
-    "repoUrl": "https://github.com/aebonlee/data09-25",
-    "planUrl": "https://github.com/aebonlee/data09-25/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-25/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-25&d=readme",
+    "planUrl": "view.html?r=data09-25&d=plan"
   },
   {
     "no": "26",
@@ -474,9 +449,8 @@ window.PROJECTS = [
     "planVersion": "v0.2",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-26/",
-    "repoUrl": "https://github.com/aebonlee/data09-26",
-    "planUrl": "https://github.com/aebonlee/data09-26/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-26/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-26&d=readme",
+    "planUrl": "view.html?r=data09-26&d=plan"
   },
   {
     "no": "27",
@@ -492,9 +466,8 @@ window.PROJECTS = [
     "planVersion": "v0.4",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-27/",
-    "repoUrl": "https://github.com/aebonlee/data09-27",
-    "planUrl": "https://github.com/aebonlee/data09-27/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-27/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-27&d=readme",
+    "planUrl": "view.html?r=data09-27&d=plan"
   },
   {
     "no": "28",
@@ -510,10 +483,9 @@ window.PROJECTS = [
     "planVersion": "v0.2",
     "hasDb": true,
     "toolUrl": "https://aebonlee.github.io/data09-28/",
-    "repoUrl": "https://github.com/aebonlee/data09-28",
-    "planUrl": "https://github.com/aebonlee/data09-28/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md",
-    "planDocx": "https://github.com/aebonlee/data09-28/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx"
+    "readmeUrl": "view.html?r=data09-28&d=readme",
+    "planUrl": "view.html?r=data09-28&d=plan"
   }
 ];
-window.PROJECTS_UPDATED = "2026-10-02";
+window.PROJECTS_UPDATED = "2026-10-26";
 window.PROJECTS_LATEST = "2026-10-02";

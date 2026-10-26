@@ -1,6 +1,6 @@
 // 옆 폴더의 data09-NN 리포를 읽어 data/projects.js 를 만든다.
 // 과제가 늘면 이 스크립트만 다시 돌리면 된다:  node scripts/build-data.mjs
-import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs'
+import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync, rmSync, copyFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -19,6 +19,8 @@ const cell = (md, key) => {
 }
 const stripUrl = (s) => s.replace(/\s*—\s*https?:\/\/\S+/g, '').replace(/https?:\/\/\S+/g, '').trim()
 
+const VIEW = join(HERE, '..', 'view')
+rmSync(VIEW, { recursive: true, force: true })
 const projects = dirs.map((repo) => {
   const dir = join(ROOT, repo)
   const readme = readFileSync(join(dir, 'README.md'), 'utf8')
@@ -50,7 +52,13 @@ const projects = dirs.map((repo) => {
   const extras = []
   if (existsSync(join(dir, 'report/index.html'))) extras.push({ label: '과제 B 도구', url: `${siteBase}report/`, tool: true })
   const plan2 = readdirSync(join(dir, 'docs')).find((f) => /^02_.*기획서\.md$/.test(f))
-  if (plan2) extras.push({ label: '과제 B 기획서', url: `https://github.com/aebonlee/${repo}/blob/main/docs/${encodeURIComponent(plan2)}` })
+  if (plan2) extras.push({ label: '과제 B 기획서', url: `view.html?r=${repo}&d=plan2` })
+  // 리포는 비공개(2026-10-26) — 기획서·README 를 허브 안 view/ 에 복사해 열람 화면(view.html)으로 보여 준다
+  const vdir = join(VIEW, repo)
+  mkdirSync(vdir, { recursive: true })
+  copyFileSync(join(dir, 'README.md'), join(vdir, 'readme.md'))
+  if (plan) copyFileSync(join(dir, 'docs/01_프로젝트_기획서.md'), join(vdir, 'plan.md'))
+  if (plan2) copyFileSync(join(dir, 'docs', plan2), join(vdir, 'plan2.md'))
   return {
     no: repo.slice(-2),
     repo,
@@ -65,9 +73,8 @@ const projects = dirs.map((repo) => {
     planVersion: ver,
     hasDb,
     toolUrl: web ? siteBase : '',
-    repoUrl: `https://github.com/aebonlee/${repo}`,
-    planUrl: `https://github.com/aebonlee/${repo}/blob/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.md`,
-    planDocx: `https://github.com/aebonlee/${repo}/raw/main/docs/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx`,
+    readmeUrl: `view.html?r=${repo}&d=readme`,
+    planUrl: plan ? `view.html?r=${repo}&d=plan` : '',
   }
 })
 

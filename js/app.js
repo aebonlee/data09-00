@@ -30,12 +30,11 @@
     var actions = el('div', { class: 'actions' }, [
       isWeb
         ? el('a', { class: 'btn primary', href: p.toolUrl, target: '_blank', rel: 'noopener', text: '도구 바로 쓰기' })
-        : el('a', { class: 'btn primary', href: p.repoUrl + '#실행-방법', target: '_blank', rel: 'noopener', text: '실행 방법 보기' }),
-      el('a', { class: 'btn', href: p.planUrl, target: '_blank', rel: 'noopener', text: '기획서' }),
-      el('a', { class: 'btn', href: p.planDocx, text: 'Word' }),
-      el('a', { class: 'btn', href: p.repoUrl, target: '_blank', rel: 'noopener', text: '리포지토리' }),
+        : el('a', { class: 'btn primary', href: p.readmeUrl + '#실행-방법', text: '실행 방법 보기' }),
+      p.planUrl ? el('a', { class: 'btn', href: p.planUrl, text: '기획서' }) : null,
+      el('a', { class: 'btn', href: p.readmeUrl, text: '소개' }),
     ].concat((p.extras || []).map(function (x) {
-      return el('a', { class: 'btn' + (x.tool ? ' sub' : ''), href: x.url, target: '_blank', rel: 'noopener', text: x.label })
+      return el('a', x.tool ? { class: 'btn sub', href: x.url, target: '_blank', rel: 'noopener', text: x.label } : { class: 'btn', href: x.url, text: x.label })
     })))
     var metaKids = [el('span', { text: stageLabel(p) })]
     if (p.planVersion) metaKids.push(el('span', { text: '기획서 ' + p.planVersion }))
